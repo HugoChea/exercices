@@ -13,7 +13,7 @@ function solution(A, B, K) {
 
 // optimized solution (O(1))
 
-function solution(A, B, K) {
+function solutionOptimized(A, B, K) {
     // write your code in JavaScript (Node.js 8.9.4)
     var b = parseInt(B/K)   // From 0 to B the integers divisible by K
     var a = parseInt(A/K)   // From 0 to A the integers divisible by K
@@ -26,8 +26,9 @@ function solution(A, B, K) {
 }
 
 // example : 
-test(6, 11, 2);
-// 3
+test(6, 11, 2); // 3
 
-b = parseInt(11/2) // 5 => (2, 4, 6, 8, 10)
-a = parseInt(6/2)  // 3 => (2, 4, 6)
+//
+//  b = parseInt(11/2) // 5 => (2, 4, 6, 8, 10)
+//  a = parseInt(6/2)  // 3 => (2, 4, 6)
+//
